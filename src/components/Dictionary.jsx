@@ -35,7 +35,7 @@ export default function Dictionary() {
                 <input 
                     type="text"
                     placeholder="Search for a word..."
-                    required
+                    // required
                     value={inputData}
                     onChange={(e) => setInputData(e.target.value)}
                 />
