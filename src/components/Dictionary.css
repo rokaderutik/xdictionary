@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.form input {
+    padding: 8px 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+}
+
+.form button {
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: white;
+}
